@@ -1,10 +1,7 @@
 use strict;
 use warnings;
 package Test::RequiresInternet;
-{
-  $Test::RequiresInternet::VERSION = '0.02';
-}
-
+$Test::RequiresInternet::VERSION = '0.03';
 # ABSTRACT: Easily test network connectivity
 
 
@@ -78,13 +75,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Test::RequiresInternet - Easily test network connectivity
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
